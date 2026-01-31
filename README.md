@@ -56,3 +56,20 @@ The integrated dataset is then used to perform analytical queries and answer bus
 
 ## 📁 Project Structure
 
+```Food-Delivery-Data-Integration-Analysis/
+├── data/
+│   ├── orders.csv                # Transactional order data
+│   ├── users.json                # User master data
+│   └── restaurants.sql           # Restaurant master data
+│
+├── notebook/
+│   └── food_delivery_analysis.ipynb   # Jupyter notebook with integration & analysis
+│
+├── output/
+│   └── final_food_delivery_dataset.csv   # Final merged dataset
+│
+├── README.md                     # Project documentation
+
+
+
+
